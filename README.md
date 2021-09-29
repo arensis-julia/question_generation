@@ -5,6 +5,14 @@ In Natural Language Processing (NLP), QA, the task of generating answer of the q
 
 So, the objective of this project is to make Korean-version model of both question generation and answer generation. For this, we used MRC data of [KLUE dataset](https://github.com/KLUE-benchmark/KLUE), and used Korean-pretrained T5 model [KE-T5](https://github.com/AIRC-KETI/ke-t5). We followed the work of [patil-suraj](https://github.com/patil-suraj/question_generation)'s, upgrading the version of used library.<br><br>
 
+# HOW IT WORKS
+![model structure](images/model_structure.png)
+<br>
+
+# EXAMPLE
+![example](images/example.png)
+<br>
+
 # REQUIREMENTS
 ```
 nltk
